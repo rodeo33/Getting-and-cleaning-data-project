@@ -1,4 +1,4 @@
-Feature Selection 
+##Feature Selection 
 =================
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
@@ -35,9 +35,9 @@ std(): Standard deviation
 
 Mean was taken for each subject and activity.
 
-Following are variables present in dataset:
+##Following are variables present in dataset:
 
-activityLbl 
+####activityLbl 
 Character(180)
 -Contains label to identify actions of subject
 It has 6 distinct values:
@@ -48,220 +48,220 @@ It has 6 distinct values:
 5 STANDING
 6 LAYING
 
-subjectLbl 
+####subjectLbl
 Numeric
 It has 30 distinct values to identify person involved in experiment.
 Min:1
 Max:30
 
-tBodyAccstdX 
+####tBodyAccstdX 
 Numeric
 
-tBodyAccstdY 
+####tBodyAccstdY 
 Numeric
 
-tBodyAccstdZ 
+####tBodyAccstdZ 
 Numeric
 
-tGravityAccstdX 
+####tGravityAccstdX 
 Numeric
 
-tGravityAccstdY 
+####tGravityAccstdY 
 Numeric
 
-tGravityAccstdZ 
+####tGravityAccstdZ 
 Numeric
 
-tBodyAccJerkstdX 
+####tBodyAccJerkstdX 
 Numeric
 
-tBodyAccJerkstdY 
+####tBodyAccJerkstdY 
 Numeric
 
-tBodyAccJerkstdZ 
+####tBodyAccJerkstdZ 
 Numeric
 
-tBodyGyrostdX 
+####tBodyGyrostdX 
 Numeric
 
-tBodyGyrostdY 
+####tBodyGyrostdY 
 Numeric
 
-tBodyGyrostdZ 
+####tBodyGyrostdZ 
 Numeric
 
-tBodyGyroJerkstdX 
+####tBodyGyroJerkstdX 
 Numeric
 
-tBodyGyroJerkstdY 
+####tBodyGyroJerkstdY 
 Numeric
 
-tBodyGyroJerkstdZ 
+####tBodyGyroJerkstdZ 
 Numeric
 
-tBodyAccMagstd 
+####tBodyAccMagstd 
 Numeric
 
-tGravityAccMagstd 
+####tGravityAccMagstd 
 Numeric
 
-tBodyAccJerkMagstd 
+####tBodyAccJerkMagstd 
 Numeric
 
-tBodyGyroMagstd 
+####tBodyGyroMagstd 
 Numeric
 
-tBodyGyroJerkMagstd 
+####tBodyGyroJerkMagstd 
 Numeric
 
-fBodyAccstdX 
+####fBodyAccstdX 
 Numeric
 
-fBodyAccstdY 
+####fBodyAccstdY 
 Numeric
 
-fBodyAccstdZ 
+####fBodyAccstdZ 
 Numeric
 
-fBodyAccJerkstdX 
+####fBodyAccJerkstdX 
 Numeric
 
-fBodyAccJerkstdY 
+####fBodyAccJerkstdY 
 Numeric
 
-fBodyAccJerkstdZ 
+####fBodyAccJerkstdZ 
 Numeric
 
-fBodyGyrostdX 
+####fBodyGyrostdX 
 Numeric
 
-fBodyGyrostdY 
+####fBodyGyrostdY 
 Numeric
 
-fBodyGyrostdZ 
+####fBodyGyrostdZ 
 Numeric
 
-fBodyAccMagstd 
+####fBodyAccMagstd 
 Numeric
 
-fBodyBodyAccJerkMagstd 
+####fBodyBodyAccJerkMagstd 
 Numeric
 
-fBodyBodyGyroMagstd 
+####fBodyBodyGyroMagstd 
 Numeric
 
-fBodyBodyGyroJerkMagstd 
+####fBodyBodyGyroJerkMagstd 
 Numeric
 
-tBodyAccmeanX 
+####tBodyAccmeanX 
 Numeric
 
-tBodyAccmeanY 
+####tBodyAccmeanY 
 Numeric
 
-tBodyAccmeanZ 
+####tBodyAccmeanZ 
 Numeric
 
-tGravityAccmeanX 
+####tGravityAccmeanX 
 Numeric
 
-tGravityAccmeanY 
+####tGravityAccmeanY 
 Numeric
 
-tGravityAccmeanZ 
+####tGravityAccmeanZ 
 Numeric
 
-tBodyAccJerkmeanX 
+####tBodyAccJerkmeanX 
 Numeric
 
-tBodyAccJerkmeanY 
+####tBodyAccJerkmeanY 
 Numeric
 
-tBodyAccJerkmeanZ 
+####tBodyAccJerkmeanZ 
 Numeric
 
-tBodyGyromeanX 
+####tBodyGyromeanX 
 Numeric
 
-tBodyGyromeanY 
+####tBodyGyromeanY 
 Numeric
 
-tBodyGyromeanZ 
+####tBodyGyromeanZ 
 Numeric
 
-tBodyGyroJerkmeanX 
+####tBodyGyroJerkmeanX 
 Numeric
 
-tBodyGyroJerkmeanY 
+####tBodyGyroJerkmeanY 
 Numeric
 
-tBodyGyroJerkmeanZ 
+####tBodyGyroJerkmeanZ 
 Numeric
 
-tBodyAccMagmean 
+####tBodyAccMagmean 
 Numeric
 
-tGravityAccMagmean 
+####tGravityAccMagmean 
 Numeric
 
-tBodyAccJerkMagmean 
+####tBodyAccJerkMagmean 
 Numeric
 
-tBodyGyroMagmean 
+####tBodyGyroMagmean 
 Numeric
 
-tBodyGyroJerkMagmean 
+####tBodyGyroJerkMagmean 
 Numeric
 
-fBodyAccmeanX 
+####fBodyAccmeanX 
 Numeric
 
-fBodyAccmeanY 
+####fBodyAccmeanY 
 Numeric
 
-fBodyAccmeanZ 
+####fBodyAccmeanZ 
 Numeric
 
-fBodyAccmeanFreqX 
+####fBodyAccmeanFreqX 
 Numeric
 
-fBodyAccmeanFreqY 
+####fBodyAccmeanFreqY 
 Numeric
 
-fBodyAccmeanFreqZ 
+####fBodyAccmeanFreqZ 
 Numeric
 
-fBodyAccJerkmeanX 
+####fBodyAccJerkmeanX 
 Numeric
 
-fBodyAccJerkmeanY 
+####fBodyAccJerkmeanY 
 Numeric
 
-fBodyAccJerkmeanZ 
+####fBodyAccJerkmeanZ 
 Numeric
 
-fBodyAccJerkmeanFreqX 
+####fBodyAccJerkmeanFreqX 
 Numeric
 
-fBodyAccJerkmeanFreqY 
+####fBodyAccJerkmeanFreqY 
 Numeric
 
-fBodyAccJerkmeanFreqZ 
+####fBodyAccJerkmeanFreqZ 
 Numeric
 
-fBodyGyromeanX 
+####fBodyGyromeanX 
 Numeric
 
-fBodyGyromeanY 
+####fBodyGyromeanY 
 Numeric
 
-fBodyGyromeanZ 
+####fBodyGyromeanZ 
 Numeric
 
-fBodyGyromeanFreqX 
+####fBodyGyromeanFreqX 
 Numeric
 
-fBodyGyromeanFreqY 
+####fBodyGyromeanFreqY 
 Numeric
 
 fBodyGyromeanFreqZ 
