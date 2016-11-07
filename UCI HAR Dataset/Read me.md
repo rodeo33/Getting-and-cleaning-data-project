@@ -1,7 +1,21 @@
-Script run_analysis.R is used to process given test and train data to create
+##Files used
+<hr>
+###run_analysis.R 
+It is used to process given test and train data to create
 summarized data.
 
-This code resides in UCI HAR Dataset folder.
+###Codebook.md
+Contains information about variables and summaries in final data set.
+
+###final summary.txt
+Contains final dataset
+
+run_analysis.R code resides in UCI HAR Dataset folder.
+
+<hr>
+
+Following is brief information about code in this file:
+
 
 x_test <= data table contains data from X_test.txt
 y_test <= data table contains data from Y_test.txt
