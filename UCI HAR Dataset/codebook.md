@@ -1,4 +1,4 @@
-##Feature Selection 
+## Feature Selection 
 =================
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
@@ -35,11 +35,11 @@ std(): Standard deviation
 
 Mean was taken for each subject and activity.
 
-##Following are variables present in dataset:
+## Following are variables present in dataset:
 
-####activityLbl 
+#### 1. activityLbl 
 Character(180)
--Contains label to identify actions of subject
+- Contains label to identify actions of subject
 It has 6 distinct values:
 1 WALKING
 2 WALKING_UPSTAIRS
@@ -48,266 +48,266 @@ It has 6 distinct values:
 5 STANDING
 6 LAYING
 
-####subjectLbl
+#### 2. subjectLbl
 Numeric
-It has 30 distinct values to identify person involved in experiment.
+- It has 30 distinct values to identify person involved in experiment.
 Min:1
 Max:30
 
-####tBodyAccstdX 
+#### 3. tBodyAccstdX 
 Numeric
 
-####tBodyAccstdY 
+#### 4. tBodyAccstdY 
 Numeric
 
-####tBodyAccstdZ 
+#### 5. tBodyAccstdZ 
 Numeric
 
-####tGravityAccstdX 
+#### 6. tGravityAccstdX 
 Numeric
 
-####tGravityAccstdY 
+#### 7. tGravityAccstdY 
 Numeric
 
-####tGravityAccstdZ 
+#### 8. tGravityAccstdZ 
 Numeric
 
-####tBodyAccJerkstdX 
+#### 9. tBodyAccJerkstdX 
 Numeric
 
-####tBodyAccJerkstdY 
+#### 10. tBodyAccJerkstdY 
 Numeric
 
-####tBodyAccJerkstdZ 
+#### 11. tBodyAccJerkstdZ 
 Numeric
 
-####tBodyGyrostdX 
+#### 12. tBodyGyrostdX 
 Numeric
 
-####tBodyGyrostdY 
+#### 13. tBodyGyrostdY 
 Numeric
 
-####tBodyGyrostdZ 
+#### 14. tBodyGyrostdZ 
 Numeric
 
-####tBodyGyroJerkstdX 
+#### 15. tBodyGyroJerkstdX 
 Numeric
 
-####tBodyGyroJerkstdY 
+#### 16. tBodyGyroJerkstdY 
 Numeric
 
-####tBodyGyroJerkstdZ 
+#### 17. tBodyGyroJerkstdZ 
 Numeric
 
-####tBodyAccMagstd 
+#### 18. tBodyAccMagstd 
 Numeric
 
-####tGravityAccMagstd 
+#### 19. tGravityAccMagstd 
 Numeric
 
-####tBodyAccJerkMagstd 
+#### 20. tBodyAccJerkMagstd 
 Numeric
 
-####tBodyGyroMagstd 
+#### 30. tBodyGyroMagstd 
 Numeric
 
-####tBodyGyroJerkMagstd 
+#### 31. tBodyGyroJerkMagstd 
 Numeric
 
-####fBodyAccstdX 
+#### 32. fBodyAccstdX 
 Numeric
 
-####fBodyAccstdY 
+#### 33. fBodyAccstdY 
 Numeric
 
-####fBodyAccstdZ 
+#### 34. fBodyAccstdZ 
 Numeric
 
-####fBodyAccJerkstdX 
+#### 35. fBodyAccJerkstdX 
 Numeric
 
-####fBodyAccJerkstdY 
+#### 36. fBodyAccJerkstdY 
 Numeric
 
-####fBodyAccJerkstdZ 
+#### 37. fBodyAccJerkstdZ 
 Numeric
 
-####fBodyGyrostdX 
+#### 38. fBodyGyrostdX 
 Numeric
 
-####fBodyGyrostdY 
+#### 39. fBodyGyrostdY 
 Numeric
 
-####fBodyGyrostdZ 
+#### 40. fBodyGyrostdZ 
 Numeric
 
-####fBodyAccMagstd 
+#### 41. fBodyAccMagstd 
 Numeric
 
-####fBodyBodyAccJerkMagstd 
+#### 42. fBodyBodyAccJerkMagstd 
 Numeric
 
-####fBodyBodyGyroMagstd 
+#### 43. fBodyBodyGyroMagstd 
 Numeric
 
-####fBodyBodyGyroJerkMagstd 
+#### 44. fBodyBodyGyroJerkMagstd 
 Numeric
 
-####tBodyAccmeanX 
+#### 45. tBodyAccmeanX 
 Numeric
 
-####tBodyAccmeanY 
+#### 46. tBodyAccmeanY 
 Numeric
 
-####tBodyAccmeanZ 
+#### 47. tBodyAccmeanZ 
 Numeric
 
-####tGravityAccmeanX 
+#### 48. tGravityAccmeanX 
 Numeric
 
-####tGravityAccmeanY 
+#### 49. tGravityAccmeanY 
 Numeric
 
-####tGravityAccmeanZ 
+#### 50. tGravityAccmeanZ 
 Numeric
 
-####tBodyAccJerkmeanX 
+#### 51. tBodyAccJerkmeanX 
 Numeric
 
-####tBodyAccJerkmeanY 
+#### 52. tBodyAccJerkmeanY 
 Numeric
 
-####tBodyAccJerkmeanZ 
+#### 53. tBodyAccJerkmeanZ 
 Numeric
 
-####tBodyGyromeanX 
+#### 54. tBodyGyromeanX 
 Numeric
 
-####tBodyGyromeanY 
+#### 55. tBodyGyromeanY 
 Numeric
 
-####tBodyGyromeanZ 
+#### 56. tBodyGyromeanZ 
 Numeric
 
-####tBodyGyroJerkmeanX 
+#### 57. tBodyGyroJerkmeanX 
 Numeric
 
-####tBodyGyroJerkmeanY 
+#### 58. tBodyGyroJerkmeanY 
 Numeric
 
-####tBodyGyroJerkmeanZ 
+#### 59. tBodyGyroJerkmeanZ 
 Numeric
 
-####tBodyAccMagmean 
+#### 60. tBodyAccMagmean 
 Numeric
 
-####tGravityAccMagmean 
+#### 61. tGravityAccMagmean 
 Numeric
 
-####tBodyAccJerkMagmean 
+#### 62. tBodyAccJerkMagmean 
 Numeric
 
-####tBodyGyroMagmean 
+#### 63. tBodyGyroMagmean 
 Numeric
 
-####tBodyGyroJerkMagmean 
+#### 64. tBodyGyroJerkMagmean 
 Numeric
 
-####fBodyAccmeanX 
+#### 65. fBodyAccmeanX 
 Numeric
 
-####fBodyAccmeanY 
+#### 66. fBodyAccmeanY 
 Numeric
 
-####fBodyAccmeanZ 
+#### 67. fBodyAccmeanZ 
 Numeric
 
-####fBodyAccmeanFreqX 
+#### 68. fBodyAccmeanFreqX 
 Numeric
 
-####fBodyAccmeanFreqY 
+#### 69. fBodyAccmeanFreqY 
 Numeric
 
-####fBodyAccmeanFreqZ 
+#### 70. fBodyAccmeanFreqZ 
 Numeric
 
-####fBodyAccJerkmeanX 
+#### 71. fBodyAccJerkmeanX 
 Numeric
 
-####fBodyAccJerkmeanY 
+#### 72. fBodyAccJerkmeanY 
 Numeric
 
-####fBodyAccJerkmeanZ 
+#### 73. fBodyAccJerkmeanZ 
 Numeric
 
-####fBodyAccJerkmeanFreqX 
+#### 74. fBodyAccJerkmeanFreqX 
 Numeric
 
-####fBodyAccJerkmeanFreqY 
+#### 75. fBodyAccJerkmeanFreqY 
 Numeric
 
-####fBodyAccJerkmeanFreqZ 
+#### 76. fBodyAccJerkmeanFreqZ 
 Numeric
 
-####fBodyGyromeanX 
+#### 77. fBodyGyromeanX 
 Numeric
 
-####fBodyGyromeanY 
+#### 78. fBodyGyromeanY 
 Numeric
 
-####fBodyGyromeanZ 
+#### 79. fBodyGyromeanZ 
 Numeric
 
-####fBodyGyromeanFreqX 
+#### 80. fBodyGyromeanFreqX 
 Numeric
 
-####fBodyGyromeanFreqY 
+#### 81. fBodyGyromeanFreqY 
 Numeric
 
-fBodyGyromeanFreqZ 
+#### 82. fBodyGyromeanFreqZ 
 Numeric
 
-fBodyAccMagmean 
+#### 83. fBodyAccMagmean 
 Numeric
 
-fBodyAccMagmeanFreq 
+#### 84. fBodyAccMagmeanFreq 
 Numeric
 
-fBodyBodyAccJerkMagmean 
+#### 85. fBodyBodyAccJerkMagmean 
 Numeric
 
-fBodyBodyAccJerkMagmeanFreq 
+#### 86. fBodyBodyAccJerkMagmeanFreq 
 Numeric
 
-fBodyBodyGyroMagmean 
+#### 87. fBodyBodyGyroMagmean 
 Numeric
 
-fBodyBodyGyroMagmeanFreq 
+#### 88. fBodyBodyGyroMagmeanFreq 
 Numeric
 
-fBodyBodyGyroJerkMagmean 
+#### 89. fBodyBodyGyroJerkMagmean 
 Numeric
 
-fBodyBodyGyroJerkMagmeanFreq 
+#### 90. fBodyBodyGyroJerkMagmeanFreq 
 Numeric
 
-angletBodyAccMeangravity 
+#### 91. angletBodyAccMeangravity 
 Numeric
 
-angletBodyAccJerkMeangravityMean 
+#### 92. angletBodyAccJerkMeangravityMean 
 Numeric
 
-angletBodyGyroMeangravityMean 
+#### 93. angletBodyGyroMeangravityMean 
 Numeric
 
-angletBodyGyroJerkMeangravityMean 
+#### 94. angletBodyGyroJerkMeangravityMean 
 Numeric
 
-angleXgravityMean 
+#### 95. angleXgravityMean 
 Numeric
 
-angleYgravityMean 
+#### 96. angleYgravityMean 
 Numeric
 
-angleZgravityMean
+#### 97. angleZgravityMean
 Numeric
